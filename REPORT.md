@@ -57,26 +57,27 @@ Target: `networkwalks.com`
 
 Reconnaissance was performed using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon. Each tool collected a different type of information about the target.
 $ whois networkwalks.com
----text
--Domain Name: NETWORKWALKS.COM
--Registry Domain ID: 2452319255_DOMAIN_COM-VRSN
--Registrar WHOIS Server: whois.godaddy.com
--Registrar URL: http://www.godaddy.com
--Updated Date: 2025-11-12T10:08:43Z
--Creation Date: 2019-11-06T22:51:46Z
--Registry Expiry Date: 2027-11-06T22:51:46Z
--Registrar: GoDaddy.com, LLC
--Registrar IANA ID: 146
--Registrar Abuse Contact Email: abuse@godaddy.com
--Registrar Abuse Contact Phone: 480-624-2505
--Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
--Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
--Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
--Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
--Name Server: NS6135.HOSTGATOR.COM
--Name Server: NS6136.HOSTGATOR.COM
--DNSSEC: unsigned
--URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+```console
+(kali㉿kali)-[~]
+└─$ whois networkwalks.com
+Domain Name: NETWORKWALKS.COM
+Registry Domain ID: 2452319255_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.godaddy.com
+Registrar URL: [http://www.godaddy.com](http://www.godaddy.com)
+Updated Date: 2025-11-12T10:08:43Z
+Creation Date: 2019-11-06T22:51:46Z
+Registry Expiry Date: 2027-11-06T22:51:46Z
+Registrar: GoDaddy.com, LLC
+Registrar IANA ID: 146
+Registrar Abuse Contact Email: abuse@godaddy.com
+Registrar Abuse Contact Phone: 480-624-2505
+Domain Status: clientDeleteProhibited [https://icann.org/epp#clientDeleteProhibited](https://icann.org/epp#clientDeleteProhibited)
+Domain Status: clientRenewProhibited [https://icann.org/epp#clientRenewProhibited](https://icann.org/epp#clientRenewProhibited)
+Domain Status: clientTransferProhibited [https://icann.org/epp#clientTransferProhibited](https://icann.org/epp#clientTransferProhibited)
+Domain Status: clientUpdateProhibited [https://icann.org/epp#clientUpdateProhibited](https://icann.org/epp#clientUpdateProhibited)
+Name Server: NS6135.HOSTGATOR.COM
+Name Server: NS6136.HOSTGATOR.COM
+DNSSEC: unsigned
 
 
 **Result:** Confirms hosting provider (HostGator) and registrar (GoDaddy).
