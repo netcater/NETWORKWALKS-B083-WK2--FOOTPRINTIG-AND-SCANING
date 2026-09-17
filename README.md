@@ -27,22 +27,7 @@ The supplied report states that the activities were performed for educational/re
 - ifconfig
 - theHarvester
 
-## Repository layout
 
-```text
-.
-├── README.md
-├── LICENSE
-├── .gitignore
-├── docs/
-│   ├── methodology.md
-│   ├── findings-and-recommendations.md
-│   └── commands-reference.md
-├── evidence/
-│   └── README.md
-└── notes/
-    └── lab-safety.md
-```
 
 ## Authorization
 
