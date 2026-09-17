@@ -238,12 +238,20 @@ Individually, none of these findings represent a direct compromise — everythin
 ### Evidence collected
 
 ![image](whois.PNG)
+<br>
 ![image](whatweb.PNG)
+<br>
 ![image](wafwoof.PNG)
+<br>
 ![image](nslookup.PNG)
+<br>
 ![image](dnsrecon.PNG)
+<br>
 ![image](curli.PNG)
+<br>
 ![image](zenmap(2).PNG)
+<br>
 ![image](zenmappdf.PNG)
+<br>
 ![image](harvestl20.PNG)
 
