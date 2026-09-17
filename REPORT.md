@@ -78,7 +78,7 @@ Domain Status: clientUpdateProhibited [https://icann.org/epp#clientUpdateProhibi
 Name Server: NS6135.HOSTGATOR.COM
 Name Server: NS6136.HOSTGATOR.COM
 DNSSEC: unsigned
-
+```
 
 **Result:** Confirms hosting provider (HostGator) and registrar (GoDaddy).
 
