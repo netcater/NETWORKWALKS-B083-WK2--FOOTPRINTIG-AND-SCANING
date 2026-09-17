@@ -249,7 +249,7 @@ Individually, none of these findings represent a direct compromise — everythin
 <br>
 ![image](curli.PNG)
 <br>
-![image](zenmap (2).PNG)
+![image](zenmap.PNG)
 <br>
 ![image](zenmappdf.PNG)
 <br>
