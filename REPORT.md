@@ -118,7 +118,7 @@ Address: 192.232.216.135
 Used to inspect the HTTP response headers. This exposed the WordPress REST API endpoint (`/wp-json/`) and the name of the active security plugin.
 
 $ curl -i networkwalks.com
-
+---text
 HTTP/1.1 301 Moved Permanently
 Date: Tue, 15 Sep 2026 09:46:58 GMT
 Server: Apache
@@ -136,7 +136,6 @@ X-Endurance-Cache-Level: 0
 X-nginx-cache: WordPress
 Content-Length: 0
 Content-Type: text/html; charset=UTF-8
-
 
 ### Wafw00f
 
