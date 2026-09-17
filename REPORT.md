@@ -232,3 +232,4 @@ Individually, none of these findings represent a direct compromise — everythin
 
 ### Evidence collected
 
+![image](whois.PNG)
