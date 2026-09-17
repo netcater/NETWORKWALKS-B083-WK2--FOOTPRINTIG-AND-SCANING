@@ -146,9 +146,9 @@ Content-Type: text/html; charset=UTF-8
 ### Wafw00f
 
 Used to determine whether a Web Application Firewall was protecting the website.
-```console
+
 $ wafw00f networkwalks.com
----text
+```console
 [*] Checking https://networkwalks.com
 [+] The site https://networkwalks.com is behind ModSecurity (SpiderLabs) WAF.
 [~] Number of requests: 2
