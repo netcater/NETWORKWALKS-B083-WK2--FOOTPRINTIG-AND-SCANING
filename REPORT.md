@@ -57,7 +57,7 @@ Target: `networkwalks.com`
 
 Reconnaissance was performed using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon. Each tool collected a different type of information about the target.
 $ whois networkwalks.com
-
+---text
 Domain Name: NETWORKWALKS.COM
 Registry Domain ID: 2452319255_DOMAIN_COM-VRSN
 Registrar WHOIS Server: whois.godaddy.com
@@ -142,7 +142,7 @@ Content-Type: text/html; charset=UTF-8
 Used to determine whether a Web Application Firewall was protecting the website.
 
 $ wafw00f networkwalks.com
-
+---text
 [*] Checking https://networkwalks.com
 [+] The site https://networkwalks.com is behind ModSecurity (SpiderLabs) WAF.
 [~] Number of requests: 2
