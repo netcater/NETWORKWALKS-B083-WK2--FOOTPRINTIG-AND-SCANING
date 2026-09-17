@@ -230,3 +230,5 @@ Individually, none of these findings represent a direct compromise — everythin
 - **Segment and monitor the local LAN** — for any network beyond a personal lab, use VLAN segmentation and monitor for unauthorized scanning activity.
 - **Adopt a periodic footprinting review** — periodically run the same reconnaissance tools against the organization to understand what a real attacker could learn at any given time.
 
+### Evidence collected
+
