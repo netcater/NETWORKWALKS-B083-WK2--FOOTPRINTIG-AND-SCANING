@@ -110,21 +110,21 @@ Open-Graph-Protocol[website], Title[Networkwalks Academy], WordPress[7.1]
 Used to resolve the domain name to its IP address.
 
 $ nslookup networkwalks.com
-
+```console
 Server: 8.8.8.8
 Address: 8.8.8.8#53
 
 Non-authoritative answer:
 Name: networkwalks.com
 Address: 192.232.216.135
-
+```
 
 ### Curl (-I)
 
 Used to inspect the HTTP response headers. This exposed the WordPress REST API endpoint (`/wp-json/`) and the name of the active security plugin.
 
 $ curl -i networkwalks.com
----text
+```console
 HTTP/1.1 301 Moved Permanently
 Date: Tue, 15 Sep 2026 09:46:58 GMT
 Server: Apache
@@ -142,18 +142,18 @@ X-Endurance-Cache-Level: 0
 X-nginx-cache: WordPress
 Content-Length: 0
 Content-Type: text/html; charset=UTF-8
-
+```
 ### Wafw00f
 
 Used to determine whether a Web Application Firewall was protecting the website.
-
+```console
 $ wafw00f networkwalks.com
 ---text
 [*] Checking https://networkwalks.com
 [+] The site https://networkwalks.com is behind ModSecurity (SpiderLabs) WAF.
 [~] Number of requests: 2
 
-
+```
 **Result:** ModSecurity (SpiderLabs) WAF confirmed present — a defensive finding.
 
 ### DNSRecon
