@@ -57,7 +57,7 @@ Target: `networkwalks.com`
 
 Reconnaissance was performed using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon. Each tool collected a different type of information about the target.
 
-###WHOIS
+### WHOIS
 
 Find domain registration details (owner, dates, name servers).
 
