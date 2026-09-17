@@ -92,7 +92,7 @@ DNSSEC: unsigned
 Used to identify technologies used by the website.
 
 $ whatweb networkwalks.com
-
+```console
 http://networkwalks.com [301 Moved Permanently] Apache, Cookies[__wpdm_client], Country[UNITED STATES][US],
 HTTPServer[Apache], HttpOnly[__wpdm_client], IP[192.232.216.135], RedirectLocation[https://networkwalks.com/],
 UncommonHeaders[permissions-policy,x-redirect-by,upgrade,referrer-policy,x-endurance-cache-level,x-nginx-cache]
@@ -101,7 +101,7 @@ https://networkwalks.com [200 OK] Apache, Bootstrap[7.1], Cookies[__wpdm_client]
 Email[info@networkwalks.com], Frame, Google-Tag-Manager, HTML5, HTTPServer[Apache], HttpOnly[__wpdm_client],
 IP[192.232.216.135], JQuery[3.7.1], MetaGenerator[WordPress 7.1,WordPress Download Manager 3.3.58],
 Open-Graph-Protocol[website], Title[Networkwalks Academy], WordPress[7.1]
-
+```
 
 **Result:** WordPress 7.1, WordPress Download Manager 3.3.58, jQuery 3.7.1, Bootstrap 7.1, Apache — exact version disclosure.
 
