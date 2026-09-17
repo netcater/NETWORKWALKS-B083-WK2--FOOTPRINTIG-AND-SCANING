@@ -56,6 +56,11 @@ Every activity below includes the exact command used, the result observed, and a
 Target: `networkwalks.com`
 
 Reconnaissance was performed using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon. Each tool collected a different type of information about the target.
+
+###WHOIS
+
+Find domain registration details (owner, dates, name servers).
+
 $ whois networkwalks.com
 ```console
 (kali㉿kali)-[~]
